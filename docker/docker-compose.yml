@@ -8,3 +8,4 @@ services:
     command: python main.py
     volumes:
       - ../src:/usr/src/app
+      - ~/.aws:/root/.aws
